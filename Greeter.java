@@ -9,6 +9,7 @@ public class Greeter {
   public Greeter(String language, String country, String name) {
     locale = new Locale(language, country);
     this.name = name;
+    int i=3+4-5;
   }
 
   public String sayHello() {
