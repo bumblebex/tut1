@@ -14,6 +14,7 @@ public class Greeter {
 
   public String sayHello() {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
+    System.out.println("hi");
     return messages.getString("greeting") + ", " + "-"+name.toUpperCase()+"-";
   }
 
@@ -27,3 +28,4 @@ public class Greeter {
     System.out.println(greeter.sayHello());
   }
 }
+
